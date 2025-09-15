@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "nameEn": "Raw Peeled Sunflower Seeds",
+    "nameBg": "Суров белен слънчоглед",
+    "image": "/products/raw-sunflower.jpg",
+    "shortDescriptionEn": "Premium quality raw peeled sunflower seeds",
+    "shortDescriptionBg": "Висококачествени сурови белени слънчогледови семки",
+    "packagingEn": "100g package, 20 pcs per box, 110 boxes per pallet",
+    "packagingBg": "100гр. пакет, 20 бр. в кашон, 110 кашона в палет",
+    "detailsEn": "High-quality raw peeled sunflower seeds, carefully selected and processed. Perfect for direct consumption or further processing. GMO-free, no allergens, compliant with EU food safety regulations.",
+    "detailsBg": "Висококачествени сурови белени слънчогледови семки, внимателно подбрани и обработени. Перфектни за директна консумация или по-нататъшна обработка. Без ГМО, без алергени, в съответствие с регламентите на ЕС."
+  },
+  {
+    "id": "2",
+    "nameEn": "Roasted Peeled Sunflower Seeds",
+    "nameBg": "Печен белен слънчоглед",
+    "image": "/products/roasted-sunflower.jpg",
+    "shortDescriptionEn": "Delicious roasted peeled sunflower seeds",
+    "shortDescriptionBg": "Вкусни печени белени слънчогледови семки",
+    "packagingEn": "100g/120g/200g packages available, multiple pallet configurations",
+    "packagingBg": "Налични опаковки 100г/120г/200г, различни конфигурации на палет",
+    "detailsEn": "Perfectly roasted peeled sunflower seeds with excellent taste and crunch. Available in multiple package sizes for retail and wholesale. No additives, just pure roasted seeds.",
+    "detailsBg": "Перфектно печени белени слънчогледови семки с отличен вкус и хрупкавост. Налични в различни размери опаковки за търговия на дребно и едро."
+  },
+  {
+    "id": "3",
+    "nameEn": "Raw Pumpkin Seeds",
+    "nameBg": "Сурово тиквено семе",
+    "image": "/products/raw-pumpkin.jpg",
+    "shortDescriptionEn": "Natural raw peeled pumpkin seeds",
+    "shortDescriptionBg": "Натурални сурови белени тиквени семки",
+    "packagingEn": "100g/200g packages, 20 pcs per box",
+    "packagingBg": "100г/200г опаковки, 20 бр. в кашон",
+    "detailsEn": "Premium raw pumpkin seeds, rich in nutrients and perfect for healthy snacking. Carefully selected and processed to maintain maximum nutritional value.",
+    "detailsBg": "Премиум сурови тиквени семки, богати на хранителни вещества и идеални за здравословно хранене. Внимателно подбрани и обработени за запазване на максимална хранителна стойност."
+  },
+  {
+    "id": "4",
+    "nameEn": "Roasted Pumpkin Seeds",
+    "nameBg": "Печено тиквено семе",
+    "image": "/products/roasted-pumpkin.jpg",
+    "shortDescriptionEn": "Crispy roasted pumpkin seeds",
+    "shortDescriptionBg": "Хрупкави печени тиквени семки",
+    "packagingEn": "120g/200g packages, various box configurations",
+    "packagingBg": "120г/200г опаковки, различни конфигурации на кашон",
+    "detailsEn": "Deliciously roasted pumpkin seeds with perfect crunch. A healthy and nutritious snack option, rich in minerals and vitamins.",
+    "detailsBg": "Вкусно печени тиквени семки с перфектна хрупкавост. Здравословна и питателна закуска, богата на минерали и витамини."
+  },
+  {
+    "id": "5",
+    "nameEn": "Black Sunflower Seeds",
+    "nameBg": "Черен слънчоглед",
+    "image": "/products/black-sunflower.jpg",
+    "shortDescriptionEn": "Roasted black sunflower seeds in shell",
+    "shortDescriptionBg": "Печени черни слънчогледови семки с черупка",
+    "packagingEn": "110g/250g packages, 15 pcs per box",
+    "packagingBg": "110г/250г опаковки, 15 бр. в кашон",
+    "detailsEn": "Traditional roasted black sunflower seeds in shell. A classic snack enjoyed across Eastern Europe. Perfectly roasted for optimal flavor.",
+    "detailsBg": "Традиционни печени черни слънчогледови семки с черупка. Класическа закуска, популярна в Източна Европа. Перфектно печени за оптимален вкус."
+  },
+  {
+    "id": "6",
+    "nameEn": "Striped Sunflower Seeds",
+    "nameBg": "Шарен слънчоглед",
+    "image": "/products/striped-sunflower.jpg",
+    "shortDescriptionEn": "Roasted striped sunflower seeds",
+    "shortDescriptionBg": "Печени шарени слънчогледови семки",
+    "packagingEn": "110g/200g packages, multiple configurations",
+    "packagingBg": "110г/200г опаковки, различни конфигурации",
+    "detailsEn": "Premium quality roasted striped sunflower seeds. Larger seeds with excellent taste, perfect for snacking. A favorite among sunflower seed enthusiasts.",
+    "detailsBg": "Висококачествени печени шарени слънчогледови семки. По-големи семки с отличен вкус, идеални за похапване."
+  }
+]

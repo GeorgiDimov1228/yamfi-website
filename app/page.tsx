@@ -1,103 +1,133 @@
-import Image from "next/image";
+'use client'
+
+import Image from 'next/image'
+import Link from 'next/link'
+import { useLanguage } from '@/contexts/LanguageContext'
+import ProductCard from '@/components/ProductCard'
+import products from '@/data/products.json'
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const { t } = useLanguage()
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <>
+      <section className="relative h-[600px] bg-gradient-to-r from-green-700 to-yellow-500 text-white">
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="relative container-custom h-full flex items-center">
+          <div className="max-w-2xl">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4">
+              {t('NEED FOR SEED', 'NEED FOR SEED')}
+            </h1>
+            <p className="text-xl mb-8">
+              {t(
+                'Premium sunflower and pumpkin seeds. Your trusted supplier of high-quality roasted and raw seeds for retail and wholesale.',
+                'Премиум слънчогледови и тиквени семки. Вашият надежден доставчик на висококачествени печени и сурови семки за търговия на дребно и едро.'
+              )}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/products" className="btn-primary text-center">
+                {t('View Our Products', 'Вижте нашите продукти')}
+              </Link>
+              <Link href="/contact" className="btn-secondary text-center">
+                {t('Get in Touch', 'Свържете се с нас')}
+              </Link>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      </section>
+
+      <section className="py-16">
+        <div className="container-custom">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            {t('Why Choose YAMFI?', 'Защо да изберете YAMFI?')}
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                {t('Quality Assured', 'Гарантирано качество')}
+              </h3>
+              <p className="text-gray-600">
+                {t(
+                  'All our products meet the highest international standards for food safety and quality.',
+                  'Всички наши продукти отговарят на най-високите международни стандарти за безопасност и качество на храните.'
+                )}
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-yellow-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                {t('Fast Delivery', 'Бърза доставка')}
+              </h3>
+              <p className="text-gray-600">
+                {t(
+                  'Reliable cold chain logistics ensure your products arrive fresh and on time.',
+                  'Надеждната логистика с хладилна верига гарантира, че вашите продукти пристигат свежи и навреме.'
+                )}
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-green-700 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">
+                {t('Expert Support', 'Експертна поддръжка')}
+              </h3>
+              <p className="text-gray-600">
+                {t(
+                  'Our dedicated team provides personalized service and support for all your needs.',
+                  'Нашият специализиран екип предоставя персонализирано обслужване и поддръжка за всички ваши нужди.'
+                )}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-100">
+        <div className="container-custom">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            {t('Featured Products', 'Избрани продукти')}
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {products.slice(0, 3).map((product) => (
+              <ProductCard key={product.id} {...product} />
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/products" className="btn-primary">
+              {t('View All Products', 'Вижте всички продукти')}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="container-custom text-center">
+          <h2 className="text-4xl font-bold mb-8 text-gray-900">
+            {t('Ready to Order?', 'Готови ли сте да поръчате?')}
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            {t(
+              'Contact us today to discuss your requirements and get a competitive quote for premium seeds products.',
+              'Свържете се с нас днес, за да обсъдим вашите изисквания и да получите конкурентна оферта за премиум семена.'
+            )}
+          </p>
+          <Link href="/contact" className="btn-primary">
+            {t('Contact Us Now', 'Свържете се сега')}
+          </Link>
+        </div>
+      </section>
+    </>
+  )
 }
