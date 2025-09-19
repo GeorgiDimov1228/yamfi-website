@@ -9,17 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white mt-16">
       <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <h3 className="text-2xl font-bold mb-4">YAMFI</h3>
-            <p className="text-gray-400">
-              {t(
-                'Premium sunflower and pumpkin seeds supplier',
-                'Доставчик на премиум слънчогледови и тиквени семки'
-              )}
-            </p>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h4 className="text-lg font-semibold mb-4">
               {t('Quick Links', 'Бързи връзки')}
