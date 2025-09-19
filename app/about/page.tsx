@@ -122,8 +122,59 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="container-custom">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            {t('Certifications & Standards', 'Сертификати и стандарти')}
+            {t('Quality & Standards', 'Качество и стандарти')}
           </h2>
+          <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold mb-6 text-gray-900">
+              {t('Compliance & Safety', 'Съответствие и безопасност')}
+            </h3>
+            <ul className="space-y-4 text-gray-600">
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-600 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>
+                  {t(
+                    'Pesticides - in compliance with Regulation 396/2005 (EC) on maximum residue levels of pesticides in food',
+                    'Пестициди - в съответствие с Регламент 396/2005 (ЕО) относно стандартите за максимално допустими количества на остатъци от пестициди в храните'
+                  )}
+                </span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-600 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>
+                  {t(
+                    'No Genetically Modified Organisms (GMO)',
+                    'Без генетично модифицирани организми (ГМО)'
+                  )}
+                </span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-600 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>
+                  {t(
+                    'No allergens, in accordance with Regulation 1169/2011 (EC)',
+                    'Без алергени, в съответствие с Регламент 1169/2011 (ЕО)'
+                  )}
+                </span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-600 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>
+                  {t(
+                    'The product complies with the food safety regulations of Bulgaria and the European Union and is suitable for direct human consumption',
+                    'Продуктът отговаря на разпоредбите за безопасност на храните на България и Европейския съюз и е подходящ за директна консумация от човек'
+                  )}
+                </span>
+              </li>
+            </ul>
+          </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <p className="text-gray-600 text-center mb-8">
               {t(

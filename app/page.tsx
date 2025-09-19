@@ -101,6 +101,100 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-16 bg-green-50">
+        <div className="container-custom">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            {t('Health Benefits of Our Seeds', 'Ползи за здравето от нашите семена')}
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h3 className="text-2xl font-semibold mb-4 text-green-700">
+                {t('Pumpkin Seeds', 'Тиквени семки')}
+              </h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Rich in zinc, proteins, and Vitamin E',
+                    'Богати на цинк, протеини и витамин Е'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Help regulate blood sugar levels',
+                    'Помагат за регулиране на кръвната захар'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Support prostate health',
+                    'Подпомагат здравето на простатата'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Antioxidant and anti-aging properties',
+                    'Антиоксидантни и анти-ейдж свойства'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Prevent anemia by supporting iron production',
+                    'Предотвратяват анемия чрез подпомагане производството на желязо'
+                  )}
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h3 className="text-2xl font-semibold mb-4 text-green-700">
+                {t('Sunflower Seeds', 'Слънчогледови семки')}
+              </h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Excellent source of Omega-6 and Omega-9 fatty acids',
+                    'Отличен източник на Омега-6 и Омега-9 мастни киселини'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Support cardiovascular health',
+                    'Подпомагат сърдечно-съдовото здраве'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Rich in B and E vitamins',
+                    'Богати на витамини B и E'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Contain more Vitamin D than cod liver',
+                    'Съдържат повече витамин D от рибен черен дроб'
+                  )}
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">•</span>
+                  {t(
+                    'Provide essential minerals: magnesium, selenium, zinc',
+                    'Осигуряват важни минерали: магнезий, селен, цинк'
+                  )}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-gray-100">
         <div className="container-custom">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
