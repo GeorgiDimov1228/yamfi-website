@@ -140,6 +140,21 @@ export default function Home() {
                     'Тези малки семена осигуряват здравословна доза микроелементи като желязо, мед, магнезий, селен, цинк, калий и калций за здрави кости и зъби. Те са изключителен източник на ненаситени мастни киселини Омега 6 и Омега 9 и на фитостероли, които играят важна роля за поддържане здравето на кръвоносните съдове и сърцето.'
                   )}
                 </p>
+                <h4 className="font-semibold text-green-700">
+                  {t('Why are sunflower seeds beneficial?', 'Защо е полезно слънчогледовото семе?')}
+                </h4>
+                <p>
+                  {t(
+                    'They have an excellent balance between mono- and polyunsaturated fatty acids, which help remove plaques deposited by "bad" LDL cholesterol on blood vessel walls. Additionally, sunflower seeds can reduce the risk of diabetes. The seeds are an excellent source (20% or more of the daily amount) of proteins, dietary fiber, all B vitamins and vitamin E. The seeds also contain large amounts of minerals, magnesium, manganese, phosphorus, iron and zinc.',
+                    'Те имат отличен баланс между моно- и полиненаситени мастни киселини, които спомагат за премахване на плаки, наслагвани от „лошия" LDL холестерол по стените на кръвоносните съдове. Освен това слънчогледовите семки могат да намалят риска от диабет. Семената са отличен източник (20% или повече от дневното количество) на белтъчини, баластни вещества, всички витамини В и витамини Е. Семената съдържат също големи количества минерали, магнезий, манган, фосфор, желязо и цинк.'
+                  )}
+                </p>
+                <p className="text-sm">
+                  {t(
+                    'Sunflower seeds have a mild flavor and firm, but tender texture. They are often roasted to enhance their flavor, but you can also consume them raw. They are a rich source of vitamins E, B and D. The amount of "sunshine" vitamin D in them is much more than in cod liver, which is considered one of the richest sources.',
+                    'Слънчогледовите семки имат лек вкус и твърда, но нежна текстура. Често се пекат, за да се подчертае вкусът им, но можете да ги консумирате и сурови. Те са богат източник на витамин Е, В и D. Количеството на „слънчевият" витамин D в тях е много повече, отколкото в черния дроб на риба треска, която се е счита за един от най-богатите източници.'
+                  )}
+                </p>
               </div>
             </div>
           </div>
