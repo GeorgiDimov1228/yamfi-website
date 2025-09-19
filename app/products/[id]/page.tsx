@@ -2,19 +2,10 @@
 
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 import products from '@/data/products.json'
 import { notFound } from 'next/navigation'
-import PlaceholderImage from '@/components/PlaceholderImage'
-
-const productColors: { [key: string]: string } = {
-  '1': '#22c55e',  // Green
-  '2': '#fbbf24',  // Yellow
-  '3': '#f59e0b',  // Amber
-  '4': '#16a34a',  // Dark Green
-  '5': '#84cc16',  // Lime
-  '6': '#a3e635'   // Light Lime
-}
 
 export default function ProductDetailPage() {
   const params = useParams()
@@ -52,9 +43,12 @@ export default function ProductDetailPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="relative h-96 bg-gray-200 rounded-lg overflow-hidden">
-              <PlaceholderImage
-                text={language === 'en' ? product.nameEn : product.nameBg}
-                color={productColors[product.id] || '#718096'}
+              <Image
+                src={product.image}
+                alt={language === 'en' ? product.nameEn : product.nameBg}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
 
@@ -124,9 +118,12 @@ export default function ProductDetailPage() {
               .map((relatedProduct) => (
                 <div key={relatedProduct.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                   <div className="relative h-48 bg-gray-200">
-                    <PlaceholderImage
-                      text={language === 'en' ? relatedProduct.nameEn : relatedProduct.nameBg}
-                      color={productColors[relatedProduct.id] || '#718096'}
+                    <Image
+                      src={relatedProduct.image}
+                      alt={language === 'en' ? relatedProduct.nameEn : relatedProduct.nameBg}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>
                   <div className="p-6">

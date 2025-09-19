@@ -1,8 +1,8 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
-import PlaceholderImage from './PlaceholderImage'
 
 interface ProductCardProps {
   id: string
@@ -11,15 +11,6 @@ interface ProductCardProps {
   image: string
   shortDescriptionEn: string
   shortDescriptionBg: string
-}
-
-const productColors: { [key: string]: string } = {
-  '1': '#22c55e',  // Green
-  '2': '#fbbf24',  // Yellow
-  '3': '#f59e0b',  // Amber
-  '4': '#16a34a',  // Dark Green
-  '5': '#84cc16',  // Lime
-  '6': '#a3e635'   // Light Lime
 }
 
 export default function ProductCard({
@@ -36,9 +27,12 @@ export default function ProductCard({
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <div className="relative h-48 bg-gray-200">
-        <PlaceholderImage
-          text={productName}
-          color={productColors[id] || '#718096'}
+        <Image
+          src={image}
+          alt={productName}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <div className="p-6">
