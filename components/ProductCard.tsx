@@ -26,12 +26,12 @@ export default function ProductCard({
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <div className="relative h-48 bg-gray-200">
+      <div className="relative h-80 bg-white">
         <Image
           src={image}
           alt={productName}
           fill
-          className="object-cover"
+          className="object-contain p-6"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>

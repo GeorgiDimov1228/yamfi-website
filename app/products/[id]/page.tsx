@@ -42,13 +42,14 @@ export default function ProductDetailPage() {
           </nav>
 
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="relative h-96 bg-gray-200 rounded-lg overflow-hidden">
+            <div className="relative h-[600px] bg-white rounded-lg shadow-lg overflow-hidden">
               <Image
                 src={product.image}
                 alt={language === 'en' ? product.nameEn : product.nameBg}
                 fill
-                className="object-cover"
+                className="object-contain p-8"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                priority
               />
             </div>
 
@@ -117,12 +118,12 @@ export default function ProductDetailPage() {
               .slice(0, 3)
               .map((relatedProduct) => (
                 <div key={relatedProduct.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-                  <div className="relative h-48 bg-gray-200">
+                  <div className="relative h-56 bg-gray-50">
                     <Image
                       src={relatedProduct.image}
                       alt={language === 'en' ? relatedProduct.nameEn : relatedProduct.nameBg}
                       fill
-                      className="object-cover"
+                      className="object-contain p-4"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>

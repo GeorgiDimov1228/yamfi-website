@@ -11,8 +11,15 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative h-[600px] bg-gradient-to-r from-green-700 to-yellow-500 text-white">
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+      <section className="relative h-[600px] text-white">
+        <Image
+          src="/products/attachments/yamfi_products_mix.jpeg"
+          alt="YAMFI Seeds Background"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-green-900/80 to-yellow-600/50"></div>
         <div className="relative container-custom h-full flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">

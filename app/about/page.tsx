@@ -15,8 +15,8 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-center mt-4 max-w-2xl mx-auto">
             {t(
-              'Your trusted partner in premium seeds and nuts since 2010',
-              'Вашият надежден партньор в премиум семена от 2010'
+              'Family business with over 50 years of tradition in seed processing',
+              'Семеен бизнес с над 50 години традиция в преработката на семена'
             )}
           </p>
         </div>
@@ -31,20 +31,20 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 {t(
-                  'YAMFI was founded with a simple mission: to provide the highest quality sunflower and pumpkin seeds to businesses and consumers across Europe. Starting from humble beginnings, we have grown to become one of the most trusted seed suppliers in the region.',
-                  'YAMFI беше основана с проста мисия: да предоставя най-висококачествени слънчогледови и тиквени семки на бизнеси и потребители в цяла Европа. Започвайки от скромни начала, ние израснахме до един от най-надеждните доставчици на семена в региона.'
+                  'YAMFI is a family business with over 50 years of tradition in seed processing. Currently managed by the third generation of our family, we combine traditional expertise with modern technology to deliver the finest quality seeds.',
+                  'YAMFI е семеен бизнес с над 50 години традиция в преработката на семена. В момента управляван от третото поколение на нашето семейство, ние съчетаваме традиционния опит с модерни технологии, за да доставяме най-качествени семена.'
                 )}
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 {t(
-                  'Our commitment to quality, reliability, and customer service has earned us long-lasting partnerships with restaurants, retailers, and food service companies throughout Bulgaria and beyond.',
-                  'Нашият ангажимент към качеството, надеждността и обслужването на клиентите ни спечели дългосрочни партньорства с ресторанти, търговци и компании за хранителни услуги в цяла България и извън нея.'
+                  'Located in Červen Bryag, Bulgaria, our modern factory is equipped with state-of-the-art processing equipment. We specialize in processing and packaging sunflower and pumpkin seeds, maintaining the perfect balance between traditional roasting methods and innovative technology.',
+                  'Разположени в Червен бряг, България, нашата модерна фабрика е оборудвана с най-съвременно оборудване за преработка. Специализираме се в преработката и опаковането на слънчогледови и тиквени семки, поддържайки перфектния баланс между традиционните методи за печене и иновативните технологии.'
                 )}
               </p>
               <p className="text-gray-600 leading-relaxed">
                 {t(
-                  'Today, we continue to invest in state-of-the-art cold storage facilities and logistics to ensure that our products maintain the highest standards from farm to table.',
-                  'Днес продължаваме да инвестираме в най-съвременни хладилни съоръжения и логистика, за да гарантираме, че нашите продукти поддържат най-високи стандарти от фермата до масата.'
+                  'Our competitive advantages are guaranteed by solid investments in modern technologies, while preserving the authentic taste and nutritional value that our customers have trusted for generations.',
+                  'Нашите конкурентни предимства се гарантират от солидните инвестиции в съвременни технологии, като същевременно запазваме автентичния вкус и хранителната стойност, на които нашите клиенти се доверяват от поколения.'
                 )}
               </p>
             </div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-700/20 to-blue-900/20"></div>
               <div className="flex items-center justify-center h-full">
                 <div className="text-center text-white z-10">
-                  <div className="text-6xl font-bold mb-2">14+</div>
+                  <div className="text-6xl font-bold mb-2">50+</div>
                   <div className="text-xl">{t('Years of Excellence', 'Години превъзходство')}</div>
                 </div>
               </div>
