@@ -25,30 +25,6 @@
   },
   {
     "id": "3",
-    "nameEn": "Raw Pumpkin Seeds",
-    "nameBg": "Сурово тиквено семе",
-    "image": "/products/attachments/raw_peeled_pumpkin_seed.jpeg",
-    "shortDescriptionEn": "Natural raw peeled pumpkin seeds",
-    "shortDescriptionBg": "Натурални сурови белени тиквени семки",
-    "packagingEn": "100g/200g packages, 20 pcs per box",
-    "packagingBg": "100г/200г опаковки, 20 бр. в кашон",
-    "detailsEn": "Premium raw pumpkin seeds, rich in nutrients and perfect for healthy snacking. Carefully selected and processed to maintain maximum nutritional value.",
-    "detailsBg": "Премиум сурови тиквени семки, богати на хранителни вещества и идеални за здравословно хранене. Внимателно подбрани и обработени за запазване на максимална хранителна стойност."
-  },
-  {
-    "id": "4",
-    "nameEn": "Roasted Pumpkin Seeds",
-    "nameBg": "Печено тиквено семе",
-    "image": "/products/attachments/pumpkin_seeds_mix.jpeg",
-    "shortDescriptionEn": "Crispy roasted pumpkin seeds",
-    "shortDescriptionBg": "Хрупкави печени тиквени семки",
-    "packagingEn": "120g/200g packages, various box configurations",
-    "packagingBg": "120г/200г опаковки, различни конфигурации на кашон",
-    "detailsEn": "Deliciously roasted pumpkin seeds with perfect crunch. A healthy and nutritious snack option, rich in minerals and vitamins.",
-    "detailsBg": "Вкусно печени тиквени семки с перфектна хрупкавост. Здравословна и питателна закуска, богата на минерали и витамини."
-  },
-  {
-    "id": "5",
     "nameEn": "Black Sunflower Seeds",
     "nameBg": "Черен слънчоглед",
     "image": "/products/attachments/black_sunflower_seeds.jpeg",
@@ -60,7 +36,7 @@
     "detailsBg": "Традиционни печени черни слънчогледови семки с черупка. Класическа закуска, популярна в Източна Европа. Перфектно печени за оптимален вкус."
   },
   {
-    "id": "6",
+    "id": "4",
     "nameEn": "Striped Sunflower Seeds",
     "nameBg": "Шарен слънчоглед",
     "image": "/products/attachments/roasted_striped_sunflower.jpeg",
@@ -70,5 +46,29 @@
     "packagingBg": "110г/200г опаковки, различни конфигурации",
     "detailsEn": "Premium quality roasted striped sunflower seeds. Larger seeds with excellent taste, perfect for snacking. A favorite among sunflower seed enthusiasts.",
     "detailsBg": "Висококачествени печени шарени слънчогледови семки. По-големи семки с отличен вкус, идеални за похапване."
+  },
+  {
+    "id": "5",
+    "nameEn": "Raw Pumpkin Seeds",
+    "nameBg": "Сурово тиквено семе",
+    "image": "/products/attachments/raw_peeled_pumpkin_seed.jpeg",
+    "shortDescriptionEn": "Natural raw peeled pumpkin seeds",
+    "shortDescriptionBg": "Натурални сурови белени тиквени семки",
+    "packagingEn": "100g/200g packages, 20 pcs per box",
+    "packagingBg": "100г/200г опаковки, 20 бр. в кашон",
+    "detailsEn": "Premium raw pumpkin seeds, rich in nutrients and perfect for healthy snacking. Carefully selected and processed to maintain maximum nutritional value.",
+    "detailsBg": "Премиум сурови тиквени семки, богати на хранителни вещества и идеални за здравословно хранене. Внимателно подбрани и обработени за запазване на максимална хранителна стойност."
+  },
+  {
+    "id": "6",
+    "nameEn": "Raw Peeled Pumpkin Seeds",
+    "nameBg": "Сурови белени тиквени семки",
+    "image": "/products/attachments/raw_peeled_pumpkin_seeds.jpeg",
+    "shortDescriptionEn": "Premium raw peeled pumpkin seeds",
+    "shortDescriptionBg": "Премиум сурови белени тиквени семки",
+    "packagingEn": "100g/200g packages, various box configurations",
+    "packagingBg": "100г/200г опаковки, различни конфигурации на кашон",
+    "detailsEn": "High-quality raw peeled pumpkin seeds, perfect for healthy snacking or adding to salads, yogurts, and baked goods. Rich in minerals and vitamins.",
+    "detailsBg": "Висококачествени сурови белени тиквени семки, идеални за здравословно хранене или добавяне към салати, кисели млека и печива. Богати на минерали и витамини."
   }
 ]
