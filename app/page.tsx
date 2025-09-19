@@ -109,87 +109,38 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-semibold mb-4 text-green-700">
-                {t('Pumpkin Seeds', 'Тиквени семки')}
+                {t('Pumpkin Seeds', 'Тиквено семе')}
               </h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+              <div className="text-gray-600 space-y-4">
+                <p>
                   {t(
-                    'Rich in zinc, proteins, and Vitamin E',
-                    'Богати на цинк, протеини и витамин Е'
+                    'The seed is rich in fats, proteins, zinc salts and vitamin E. They also contain various amino acids and vitamin E, prevent premature aging and stimulate reproductive functions. Pumpkin seed oil has antioxidant, anti-sclerotic and anti-ulcer effects.',
+                    'Семето е богато на мазнини, белтъчини, цинкови соли и витамин Е. Те съдържат също и различни аминокиселини и витамин Е, предотвратяват преждевременното стареене и стимулират репродуктивните функции. Маслото от тиквено семе има антиоксидантно, анти-склеротично и противоязвено действие.'
                   )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+                </p>
+                <h4 className="font-semibold text-green-700">
+                  {t('Why are pumpkin seeds beneficial?', 'Защо е полезно тиквеното семе?')}
+                </h4>
+                <p>
                   {t(
-                    'Help regulate blood sugar levels',
-                    'Помагат за регулиране на кръвната захар'
+                    'Regular consumption of pumpkin seeds can help regulate blood sugar, which is beneficial for people with diabetes or pre-diabetic conditions. The iron content in pumpkin seeds supports the production of red blood cells and prevents anemia. Additionally, zinc and antioxidants in pumpkin seeds can improve prostate health and reduce the risk of developing prostate cancer.',
+                    'Редовната консумация на тиквено семе може да помогне и за регулиране на кръвната захар, което е от полза за хора с диабет или преддиабетни състояния. Съдържанието на желязо в тиквеното семе подпомага производството на червени кръвни клетки и предотвратява анемия. Освен това цинкът и антиоксидантите в тиквеното семе могат да подобрят здравето на простатата и да намалят риска от развитие на рак на простатата.'
                   )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Support prostate health',
-                    'Подпомагат здравето на простатата'
-                  )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Antioxidant and anti-aging properties',
-                    'Антиоксидантни и анти-ейдж свойства'
-                  )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Prevent anemia by supporting iron production',
-                    'Предотвратяват анемия чрез подпомагане производството на желязо'
-                  )}
-                </li>
-              </ul>
+                </p>
+              </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-semibold mb-4 text-green-700">
-                {t('Sunflower Seeds', 'Слънчогледови семки')}
+                {t('Sunflower Seeds', 'Слънчогледово семе')}
               </h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+              <div className="text-gray-600 space-y-4">
+                <p>
                   {t(
-                    'Excellent source of Omega-6 and Omega-9 fatty acids',
-                    'Отличен източник на Омега-6 и Омега-9 мастни киселини'
+                    'These small seeds provide a healthy dose of microelements such as iron, copper, magnesium, selenium, zinc, potassium and calcium for healthy bones and teeth. They are an excellent source of unsaturated fatty acids Omega 6 and Omega 9 and phytosterols, which play an important role in maintaining the health of blood vessels and the heart.',
+                    'Тези малки семена осигуряват здравословна доза микроелементи като желязо, мед, магнезий, селен, цинк, калий и калций за здрави кости и зъби. Те са изключителен източник на ненаситени мастни киселини Омега 6 и Омега 9 и на фитостероли, които играят важна роля за поддържане здравето на кръвоносните съдове и сърцето.'
                   )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Support cardiovascular health',
-                    'Подпомагат сърдечно-съдовото здраве'
-                  )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Rich in B and E vitamins',
-                    'Богати на витамини B и E'
-                  )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Contain more Vitamin D than cod liver',
-                    'Съдържат повече витамин D от рибен черен дроб'
-                  )}
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
-                  {t(
-                    'Provide essential minerals: magnesium, selenium, zinc',
-                    'Осигуряват важни минерали: магнезий, селен, цинк'
-                  )}
-                </li>
-              </ul>
+                </p>
+              </div>
             </div>
           </div>
         </div>
